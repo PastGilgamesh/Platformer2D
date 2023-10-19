@@ -324,7 +324,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 368132267970214283, guid: d996fbf0e3e0ff649a005629761a1c30, type: 3}
       propertyPath: m_text
-      value: Credits
+      value: About
       objectReference: {fileID: 0}
     - target: {fileID: 1020232697344100668, guid: d996fbf0e3e0ff649a005629761a1c30, type: 3}
       propertyPath: m_Name
@@ -1131,13 +1131,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883908870}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -958.22815, y: -539.99994, z: 0}
+  m_LocalScale: {x: 7.248321, y: 7.248321, z: 7.248321}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1250660964}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &913452762
 GameObject:
@@ -1641,7 +1641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149129669}
   m_Layer: 0
-  m_Name: ART
+  m_Name: === ART ===
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1668,6 +1668,7 @@ Transform:
   - {fileID: 1013537838}
   - {fileID: 1233842584}
   - {fileID: 1035884386}
+  - {fileID: 1250660964}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2113,8 +2114,9 @@ RectTransform:
   m_Children:
   - {fileID: 1275171723}
   - {fileID: 96821169}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  - {fileID: 883908873}
+  m_Father: {fileID: 1149129669}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3962,7 +3964,7 @@ Transform:
   m_Children:
   - {fileID: 2115888768}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1947868038
 GameObject:
@@ -4245,3 +4247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4474788d6f4461545a636b936e8cca01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons: []
+  duration: 0.2
+  delay: 0.05
